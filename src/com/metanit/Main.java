@@ -16,12 +16,12 @@ public class Main {
         Cat cat = new Cat();
         System.out.println(cat.getClass());
 
-        dog.run(1000);
-        cat.run(500);
+        dog.run(1000); //выводит Run: false
+        cat.run(500);  //выводит Run: false
 
-        dog.jump(5);
-        cat.jump(4);
+        dog.jump(5);  //выводит Jump: false
+        cat.jump(4);  //выводит Jump: false
 
-        dog.swim(3);
+        dog.swim(3);  //выводит Swim: true
     }
 }
